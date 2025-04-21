@@ -11,6 +11,7 @@ use App\Models\TrainingUser;
 
 class Unemployed extends Model
 {
+
     public function User()
     {
         return $this->belongsTo(User::class);
